@@ -40,11 +40,11 @@ public class Calculator {
         return (a * b); }
 
     double div(int a, int b) {
-        return (double) (a / b); }
+        return (a / b); }
 
     double div(double a, double b) {
         return (a / b); }
 
     double div(long a, long b) {
-        return (double) (a / b); }
+        return (a / b); }
 }
