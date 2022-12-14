@@ -1,0 +1,14 @@
+package itmo.java.basics.Lesson6;
+
+import java.util.Scanner;
+
+public class MainAge {
+    int age;
+    Scanner scanner = new Scanner(System.in);
+
+    public void Info() {
+        System.out.println("Введите возраст пользователя: ");
+        this.age = scanner.nextInt();
+        System.out.println("Возраст пользователя: " + age);
+    }
+}
