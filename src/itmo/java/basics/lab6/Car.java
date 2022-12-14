@@ -1,0 +1,31 @@
+package itmo.java.basics.lab6;
+
+public class Car {
+    public char color;
+
+    public int weight;
+
+    public String model;
+
+    public float speed;
+
+    public void outPut() {
+        System.out.println("Вес " + model + " составляет " + weight + "т.");
+        System.out.println("Цвет машины - " + color + " и её скорость - " + speed);
+    }
+
+    public Car(int w, String m, char c, float s) {
+
+        weight = w;
+
+        model = m;
+
+        color = c;
+
+        speed = s;
+
+    }
+
+    public Car() {
+    }
+}
