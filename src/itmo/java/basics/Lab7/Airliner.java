@@ -15,8 +15,8 @@ public class Airliner {
     }
 
     public static void main(String[] args) {
-        itmo.java.basics.Lesson7.Airliner.linerWing boing777 = new itmo.java.basics.Lesson7.Airliner.linerWing(5000);
-        itmo.java.basics.Lesson7.Airliner.linerWing boing747 = new itmo.java.basics.Lesson7.Airliner.linerWing(4000);
+        Airliner.linerWing boing777 = new Airliner.linerWing(5000);
+        Airliner.linerWing boing747 = new Airliner.linerWing(4000);
         boing777.infoWings();
         boing747.infoWings();
     }
