@@ -20,7 +20,6 @@ public class Airliner {
         boing777.infoWings();
         boing747.infoWings();
     }
-
 }
 
 
